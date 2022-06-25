@@ -1,0 +1,22 @@
+@use 'base/variables' as v;
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    font-family: v.$font-family;
+}
+
+h1{
+    font-weight:v.$bold;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}

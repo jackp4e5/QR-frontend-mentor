@@ -1,0 +1,35 @@
+@use 'base/variables' as v;
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: v.$LightGray;
+
+    &__card{
+      background-color: v.$white;
+      max-width: 30rem;
+      padding: 1.6rem;
+      border-radius: 1.5rem;
+    }
+    &__image{
+        border-radius: 1rem;
+    }
+}
+
+.contents{
+   text-align: center;
+   padding: 1rem;
+
+   &__heading{
+    color: v.$darkBlue;
+   }
+
+   &__text{
+    color: v.$blue;
+    font-size: v.$fontSize;
+    font-weight: v.$regular;
+   }
+}
